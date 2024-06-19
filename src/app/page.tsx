@@ -5,7 +5,7 @@ import Title from "@/components/HeaderTitle";
 export default function Home() {
   return (
 <main className="h-screen w-screen max-h-screen">
-    <Title/>
+    
     <main className="bg-gradient-to-tl from-gray-200 to-slate-900 flex flex-row">
     <AsideMenu/>
     <Main/>
