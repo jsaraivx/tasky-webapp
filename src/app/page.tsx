@@ -1,15 +1,10 @@
-import AsideMenu from "@/components/Aside-menu";
-import Main from "@/components/Main";
-import Title from "@/components/HeaderTitle";
+import Image from "next/image";
 
 export default function Home() {
   return (
-<main className="h-screen w-screen max-h-screen">
-    
-    <main className="bg-gradient-to-tl from-gray-200 to-slate-900 flex flex-row">
-    <AsideMenu/>
-    <Main/>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1>Teste de coluna</h1>
+        
     </main>
-</main>
   );
 }
